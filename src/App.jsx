@@ -14,7 +14,7 @@ function App() {
         <div className="container">
           <h1>
             Simple chatbot made by{" "}
-            <span style={{ color: "red" }}>keyur kakadiya</span>
+            <span style={{ color: "red" }}>Marian Kulyk</span>
           </h1>
         </div>
         <div className="container">
