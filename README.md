@@ -2,7 +2,7 @@
 
 This project is use react-chatbot-kit for chatbot so you have to install it on your project.
 
-[Live Demo](https://kakadiyakeyur53.github.io/chatbot-using-react/)
+[Live Demo](https://appleluckycoder.github.io/chat-bot/)
 
 ## npm requirements
 
@@ -10,7 +10,7 @@ This project is use react-chatbot-kit for chatbot so you have to install it on y
 
 using this feature you can add your chatbot in your project 
 go to
-[npm react-chatbot-kit](https://www.npmjs.com/package/react-chatbot-kit)
+[npm react-chatbot-kit](https://www.npmjs.com/package/chatbot-kit)
 
 ### `npm bootstrap`
 
@@ -29,7 +29,7 @@ for easy guide go to [npm jquery](https://www.npmjs.com/package/jquery).
 
 ## coding section
 
-### [Config](https://github.com/kakadiyakeyur53/chatbot-using-react/blob/main/src/Config.jsx)
+### [Config](https://github.com/appleluckycoder/chat-bot/blob/main/src/Config.jsx)
 this section is use for initialize chatbot configurations
 
 <b>Properties:</b>
@@ -46,7 +46,7 @@ this section is use for initialize chatbot configurations
 
 <b>widgets -</b> here you can define a list of widgets that you want to be able to render with a chatbot response.
 
-### [Message Parser](https://github.com/kakadiyakeyur53/chatbot-using-react/blob/main/src/MessageParser.jsx)
+### [Message Parser](https://github.com/appleluckycoder/chat-bot/blob/main/src/MessageParser.jsx)
 
 The message parser controls what happens when the user sends a message.
 
@@ -54,13 +54,13 @@ You have to implement this yourself. The beauty of this is that you can make the
 
 The only method that the message parser needs to implement is the "parse" method. This method is called inside the chatbot when it receives a message from the user.
 
-### [Action Provider](https://github.com/kakadiyakeyur53/chatbot-using-react/blob/main/src/ActionProvider.jsx)
+### [Action Provider](https://github.com/appleluckycoder/chat-bot/blob/main/src/ActionProvider.jsx)
 
 The actionprovider controls what kind of action that the chatbot is going to perform.
 
 The actionprovider is given the createChatBotMessage and createClientMessage functions in the constructor, which you can use to create a new responses.
 
-### [Widgets](https://github.com/kakadiyakeyur53/chatbot-using-react/tree/main/src/widgets)
+### [Widgets](https://github.com/appleluckycoder/chat-bot/tree/main/src/widgets)
 
 Widgets are custom components that you can render with chatbot messages.
 
@@ -89,37 +89,37 @@ scrollIntoView - helper function to scroll content into view when doing asynchro
 ## Example
 
 here i create different widget to give overview of different properties of chatbot.
-### 1. [Simple Message](https://github.com/kakadiyakeyur53)
+### 1. [Simple Message](https://github.com/appleluckycoder)
 
 return simple chatbot message with text.
 
-### 2. [Enrollment No Wedget](https://github.com/kakadiyakeyur53/chatbot-using-react/blob/main/src/widgets/EnrollmentNo.jsx)
+### 2. [Enrollment No Wedget](https://github.com/appleluckycoder/chat-bot/blob/main/src/widgets/EnrollmentNo.jsx)
 
 in this widget give simple overview of propery and use form for user input
 
 this return specific message on button click event
 
-### 3. [Web Development](https://github.com/kakadiyakeyur53/chatbot-using-react/blob/main/src/widgets/WebDevelopment.jsx)
+### 3. [Web Development](https://github.com/appleluckycoder/chat-bot/blob/main/src/widgets/WebDevelopment.jsx)
 
 simple use of state data passed in props by config section
 
-### 4. [Software Development](https://github.com/kakadiyakeyur53/chatbot-using-react/blob/main/src/widgets/SoftwareDevelopment.jsx)
+### 4. [Software Development](https://github.com/appleluckycoder/chat-bot/blob/main/src/widgets/SoftwareDevelopment.jsx)
 
 simple use of data passed by backend or by array in widget itself.
 
-### 5. [Tools](https://github.com/kakadiyakeyur53/chatbot-using-react/blob/main/src/widgets/Tools.jsx)
+### 5. [Tools](https://github.com/appleluckycoder/chat-bot/blob/main/src/widgets/Tools.jsx)
 
 use of action provider passing to widget by props
 
 display buttons, on click use property action provider which is given to widget by props
 
-### 6. [WeatherInfo](https://github.com/kakadiyakeyur53/chatbot-using-react/blob/main/src/widgets/WeatherInfo.jsx)
+### 6. [WeatherInfo](https://github.com/appleluckycoder/chat-bot/blob/main/src/widgets/WeatherInfo.jsx)
 
 use of API
 
 fetch data using API and use in widget, live display by statechange
 
-[Live Demo](https://kakadiyakeyur53.github.io/chatbot-using-react/)
+[Live Demo](https://appleluckycoder.github.io/chat-bot/)
 
 ## PreView
 
